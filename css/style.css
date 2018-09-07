@@ -1,0 +1,92 @@
+﻿/*!
+ * Extend Bootstrap v2.3.1 to provide cell alignment
+ *
+ */
+ 
+.table td.tdRight {
+  text-align: right;
+}
+.table td.tdCenter {
+  text-align: center;
+}
+.table-nonfluid {
+   width: auto;
+}
+th, td {
+    padding: 5;
+    text-align: left;
+}
+
+table.headerdata {
+    
+    border-collapse: collapse;
+    border-spacing: 1px 1px;
+}
+
+.a{cursor:hand};
+
+ .a:hover{
+  background: #29abe2;
+  color: #fff;
+  border-radius: 5px; }
+
+.a:active{
+  background: #29abe2;
+  color: #fff;
+  border-radius: 5px; }
+
+.borderspace {
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-color:gray;
+    border:thin;
+}
+ 
+.ng-modal-overlay {
+  /* A dark translucent div that covers the whole screen */
+  position:absolute;
+  z-index:9999;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#000000;
+  opacity: 0.8;
+}
+.ng-modal-dialog {
+  /* A centered div above the overlay with a box shadow. */
+  z-index:10000;
+  position: absolute;
+  width: 50%; /* Default */
+
+  /* Center the dialog */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+
+  background-color: #fff;
+  box-shadow: 4px 4px 80px #000;
+}
+.ng-modal-dialog-content {
+  padding:10px;
+  text-align: left;
+}
+.ng-modal-close {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 120%;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'arial', 'sans-serif';
+}
+.cart_font.table.td{
+    font-family:Verdana;
+    font-size:small;
+  font-weight:100  
+   
+}
